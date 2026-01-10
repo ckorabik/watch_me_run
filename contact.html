@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Watch Me Run — Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="logo">Watch Me Run</div>
+
+    <button id="toggle-theme" class="theme-btn">🌓</button>
+
+    <button class="menu-toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main class="content-section fade-in">
+    <h1>Contact Us</h1>
+
+    <form class="contact-form" id="contact-form">
+      <label>Email</label>
+      <input type="email" id="email" required />
+
+      <label>Message</label>
+      <textarea id="message" rows="6" required></textarea>
+
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+
+    <p class="contact-note">
+      We’ll reply to you at <strong>support@watchmerun.com</strong>
+    </p>
+  </main>
+
+  <footer class="footer">© 2026 Watch Me Run</footer>
+
+  <!-- Custom Cursor -->
+  <div id="cursor"></div>
+
+  <script src="emailjs.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
